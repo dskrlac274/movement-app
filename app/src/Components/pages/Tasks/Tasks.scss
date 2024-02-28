@@ -1,0 +1,13 @@
+.all-tasks-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 16px;
+}
+
+.no-data-wrapper {
+  border-radius: 8px;
+  width: 100%;
+  background-color: red;
+  padding: 16px;
+}

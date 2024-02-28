@@ -1,0 +1,35 @@
+.radius-slider {
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  height: 80px;
+
+  label {
+    font-size: 14px;
+  }
+
+  .radius-slider-container {
+    height: 80px;
+  }
+}
+
+.radius-slider input[type="range"] {
+  width: 100%;
+  margin: 20px 0;
+  -webkit-appearance: none;
+  height: 8px;
+  background: #d3d3d3;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+
+.radius-slider input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #6866ad;
+  cursor: pointer;
+}

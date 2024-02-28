@@ -1,0 +1,26 @@
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-main {
+  background-color: #eaeaea;
+  border-radius: 8px;
+  padding: 16px;
+  border: 1px solid #6866ad;
+  width: 100%;
+  color: #898989;
+  outline: none;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.label-main {
+  color: #585858;
+  margin-bottom: 4px;
+  font-weight: 500;
+}
+
+.disabled {
+  border: 1px solid #eaf2f4;
+}

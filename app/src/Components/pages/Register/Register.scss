@@ -1,0 +1,30 @@
+.register-page-wrapper {
+  padding-top: 48px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+
+  img {
+    height: 200px;
+  }
+}
+
+.register-form-wrapper {
+  height: 100%;
+  width: 100%;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  .input-main {
+    margin-bottom: 16px;
+  }
+
+  button {
+    margin-top: 16px;
+  }
+}

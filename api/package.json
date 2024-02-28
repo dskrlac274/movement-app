@@ -1,0 +1,44 @@
+{
+  "name": "movement-api",
+  "version": "1.0.0",
+  "description": "MoveMent API",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start:prod": "env-cmd -f environments/prod.env node server",
+    "start:dev": "env-cmd -f environments/dev.env nodemon server",
+    "dbinit:lin": "rm -f ./database.db;cat config/db.sql | sqlite3 database.db",
+    "dbinit:win": "del ./database.db & type config\\db.sql | sqlite3 database.db",
+    "dbclear": "rm ./database.db",
+    "debug": "env-cmd -f environments/dev.env node --inspect server"
+  },
+  "keywords": [
+    "move",
+    "walk",
+    "activity"
+  ],
+  "author": "Tin Tomašić, Daniel Škrlac, Ana Škarica, Martin Friščić",
+  "license": "GPL-2.0",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "env-cmd": "^10.1.0",
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.1.0",
+    "html-to-text": "^9.0.5",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.0",
+    "ms": "^2.1.3",
+    "multer": "^1.4.5-lts.1",
+    "node-cron": "^3.0.2",
+    "nodemailer": "^6.9.5",
+    "pug": "^3.0.2",
+    "sharp": "^0.32.6",
+    "sqlite3": "^5.1.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}

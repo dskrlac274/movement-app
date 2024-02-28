@@ -1,0 +1,29 @@
+.review-profile-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  //background-color: red;
+  gap: 24px;
+
+  img {
+    height: 200px;
+  }
+
+  p {
+    font-weight: 400;
+    font-size: 24px;
+  }
+}
+
+.profile-reviews-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 16px;
+  background-color: #f4f4fd;
+  border-radius: 8px;
+  padding: 8px;
+}

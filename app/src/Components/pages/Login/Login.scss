@@ -1,0 +1,51 @@
+.login-page-wrapper {
+  padding-top: 72px;
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+
+  img {
+    height: 200px;
+  }
+}
+
+.login-form-wrapper {
+  height: 100%;
+  width: 100%;
+  padding: 8px 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  .input-main {
+    margin-bottom: 16px;
+  }
+}
+
+.forgot-password-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 16px;
+
+  h4 {
+    font-weight: 400;
+    text-decoration: underline;
+    font-size: 14px;
+  }
+}
+
+.no-account-wrapper {
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 400;
+  gap: 8px;
+
+  span {
+    color: #6866ad;
+  }
+}

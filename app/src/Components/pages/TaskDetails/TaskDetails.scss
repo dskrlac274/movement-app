@@ -1,0 +1,33 @@
+.task-details-wrapper {
+  padding: 8px 24px;
+  display: flex;
+  flex-direction: column;
+
+  h3 {
+    color: #6866ad;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 16px 0;
+  }
+
+  .task-details-info {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px 0;
+
+    .task-details-info-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+
+      p {
+        word-wrap: break-word;
+      }
+
+      .icon {
+        min-width: 24px;
+      }
+    }
+  }
+}

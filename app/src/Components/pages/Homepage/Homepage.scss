@@ -1,0 +1,26 @@
+.homepage-wrapper {
+  padding: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 24px;
+
+  a {
+    width: 100%;
+  }
+}
+
+.reviews-alert-wrapper {
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #6866ad;
+  padding: 12px;
+  border-radius: 8px;
+  width: 100%;
+  align-items: center;
+  gap: 16px;
+  color: white;
+}
